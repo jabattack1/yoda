@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: yodish_production
-  username: yodish
-  password: <%= ENV['YODISH_DATABASE_PASSWORD'] %>
+  # username: yodish
+  # password: <%= ENV['YODISH_DATABASE_PASSWORD'] %>
